@@ -1,8 +1,53 @@
 :root {
-  --primary: #ebc908;
+  --primary: black;
   --primary-text: #1a1a1a;
-  --secondary: #ff1dec;
+  --secondary: red;
   --secondary-text: #ffffff;
-  --accent: #505050;
+  --accent: black;
   --accent-text: #ffffff;
+}
+
+.header-container {
+  display: flex;
+  height: 10vh;
+  margin: 20px;
+}
+
+.header-left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.header-container-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.header-right {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header-text {
+  display: flex;
+}
+
+.twitter-logo-1 {
+  width: 50px;
+  height: 50px;
+  margin: 0px 5px;
+}
+
+.discord-logo-1 {
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+}
+
+.opensea-logo-1 {
+  width: 35px;
+  height: 35px;
+  margin: 0px 5px;
 }
